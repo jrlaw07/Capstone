@@ -1,0 +1,12 @@
+BIO
+
+Jeremy Lawson is a Data Scientist at Booz Allen Hamilton, McLean, VA. He received his B.S. in Applied Mathematics from Jackson State University and completed the Data Science Immersion Program at General Assembly in Washington, D.C. 
+Jeremy’s area of concentration in machine learning is Behavioral & Social Network Analysis. In addition to being a Mathematician, Jeremy held the honor of President of the Maryland Black Caucus Foundation, a not for profit organization that analyzes socioeconomic metrics that influence politics in the State of Maryland. 
+Jeremy is also an educator of at-risk youth who struggle in mathematics, a former volunteer firefighter, a member of The National Alliance for Doctoral Studies in Mathematical Sciences and an enthusiastic New Orleans Saints fan. 
+He currently resides in Maryland and is pursuing a Master’s in Data Science to be followed by a Doctorate Degree. 
+His goal for completing the capstone is to build on foundational knowledge of Data Science that will help him complete a task or project within his related fields of Behavorial Analysis or Agriculture.
+
+
+Status
+
+3 Fulltime Job
