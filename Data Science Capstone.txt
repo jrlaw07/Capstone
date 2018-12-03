@@ -1,3 +1,0 @@
-Data Science Capstone
-
---build convolutional neural network on GPR images
