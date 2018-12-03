@@ -358,8 +358,8 @@ def main():
     len(train_df)
 
     # Load images and masks
-    train_df["images"] = [np.array(load_img("C:/Users/588129/OneDrive/George Washington University/Capstone/train/images/{}.png".format(idx), color_mode="grayscale")) / 255 for idx in train_df.index]
-    train_df["masks"] = [np.array(load_img("C:/Users/588129/OneDrive/George Washington University/Capstone/train/masks/{}.png".format(idx), color_mode="grayscale")) / 255 for idx in train_df.index]
+    train_df["images"] = [np.array(load_img("./train/images/{}.png".format(idx), color_mode="grayscale")) / 255 for idx in train_df.index]
+    train_df["masks"] = [np.array(load_img("./train/masks/{}.png".format(idx), color_mode="grayscale")) / 255 for idx in train_df.index]
     train_df["coverage"] = train_df.masks.map(np.sum) / pow(img_size_ori, 2)
     train_df["coverage_class"] = train_df.coverage.map(cov_to_class)
     
@@ -491,7 +491,7 @@ def main():
     threshold_best = get_best_threshold(y_valid, preds_valid)
     
     # Read in the test data and make predictions on it
-    x_test = np.array([(np.array(load_img("C:/Users/588129/OneDrive/George Washington University/Capstone/test/images/{}.png".format(idx), color_mode="grayscale"))) / 255 for idx in test_df.index]).reshape(-1, img_size_target, img_size_target, 1)
+    x_test = np.array([(np.array(load_img("./test/images/{}.png".format(idx), color_mode="grayscale"))) / 255 for idx in test_df.index]).reshape(-1, img_size_target, img_size_target, 1)
     preds_test = predict_result(model4,x_test,img_size_target)
 
     # Make predictions on the test data
