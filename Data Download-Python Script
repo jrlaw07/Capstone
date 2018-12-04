@@ -3,4 +3,4 @@ To Download Data from Google Drive Folder, use wget command for the file name be
 wget https://drive.google.com/uc?export=download&id=1YDpjZs4Nj4rpXNwJqUciOcjagOV6MKcR
 
 
-The script can be simply run with "python tgs_script.py > output.txt".
+The tgs python script can be simply run with "python tgs_script.py > output.txt".
